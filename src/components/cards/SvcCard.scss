@@ -1,0 +1,20 @@
+.svc-card {
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  height: 100%;
+
+  .status-bar {
+    width: 100%;
+    height: 5px;
+  }
+
+  .card-footer {
+    border-top: none;
+    font-size: 0.8rem;
+
+    .oi {
+      margin: 0.15em;
+    }
+  }
+}

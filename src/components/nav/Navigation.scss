@@ -1,0 +1,19 @@
+.navbar {
+  padding: 0.3rem 2rem;
+
+  .nav-icon,
+  .nav-icon-lg {
+    margin: 0.5rem;
+  }
+
+  .nav-icon-lg {
+    font-size: 1.2rem;
+  }
+  .navbar-right {
+    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 0.3rem 2rem;
+  }
+}

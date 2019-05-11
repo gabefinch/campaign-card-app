@@ -1,0 +1,29 @@
+.floating-dropdown {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.state-dropdown-toggle {
+  background: white;
+  border-radius: 5%;
+}
+
+.state-dropdown-toggle::after {
+  // override caret
+  display: none;
+}
+.dropdown-item.active {
+  text-decoration: underline;
+  font-weight: 700;
+  background-color: #6c757d;
+}
+
+.state-item-menu {
+  padding: 0;
+}
+
+.state-item-divider {
+  margin: 0;
+  border-top: 1px solid #98a6b3;
+}

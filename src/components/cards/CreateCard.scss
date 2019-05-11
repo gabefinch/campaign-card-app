@@ -1,0 +1,11 @@
+.create-card {
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  height: 100%;
+  min-height: 300px;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+
+  .card-text {
+    height: 100%;
+  }
+}
